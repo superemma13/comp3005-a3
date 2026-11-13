@@ -42,6 +42,7 @@ to the existing remote database.
 
 The database contains a table named `students` with the following schema:
 
+```
 Name:           | Data Type:  | Constrants:
 
 student_id      | SERIAL      | Primary Key, Auto-Increment
@@ -49,14 +50,17 @@ first_name      | TEXT        | NOT NULL
 last_name       | TEXT        | NOT NULL
 email           | TEXT        | NOT NULL, UNIQUE
 enrollment_date | DATE        | n/a
+```
 
 The `students` table is initially populated with the following records:
 
+```
 student_id: | first_name: | last_name:  | email:                  | enrollment_date:
 
 1           | John        | Doe         | john.doe@example.com    | 2023-09-01
 2           | Jane        | Smith       | jane.smith@example.com  | 2023-09-01
 3           | Jim         | Beam        | jim.beam@example.com    | 2023-09-02
+```
 
 ## Requirements
 
