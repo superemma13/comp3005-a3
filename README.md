@@ -6,7 +6,7 @@ This project is a Python application that connects to a PostgreSQL database host
 It uses a command-line interface to manage student records through CRUD (Create, Read, Update, Delete) operations.
 
 The Python application runs locally on the user's computer, while the PostgreSQL database is hosted remotely on an 
-OpenStack server. The application communicates with the database over a network connection using the `psycopg2` library.
+OpenStack server. The application communicates with the database over a network connection using the "psycopg2" library.
 
 ## Video Demonstration Link
 
@@ -40,7 +40,7 @@ The database and its initial data are already set up on the OpenStack server. Th
 create a local PostgreSQL database or run a local PostgreSQL server. The application connects directly 
 to the existing remote database.
 
-The database contains a table named `students` with the following schema:
+The database contains a table named "students" with the following schema:
 
 ```
 Name:           | Data Type:  | Constrants:
@@ -52,7 +52,7 @@ email           | TEXT        | NOT NULL, UNIQUE
 enrollment_date | DATE        | n/a
 ```
 
-The `students` table is initially populated with the following records:
+The "students" table is initially populated with the following records:
 
 ```
 student_id: | first_name: | last_name:  | email:                  | enrollment_date:
@@ -67,7 +67,7 @@ student_id: | first_name: | last_name:  | email:                  | enrollment_d
 Before running the application, ensure that the following requirements are met:
 
 1. Python version 3.10.0 is installed.
-2. The `psycopg2` Python library is installed.
+2. The "psycopg2" Python library is installed.
 3. An internet connection is available.
 4. The Carleton University VPN is connected if running the application off campus.
 5. The remote PostgreSQL database is accessible on the OpenStack server.
@@ -132,7 +132,7 @@ If Python 3.10.0 is not installed and this application doesn't work with newer v
 
 ### Step 3: Install the Required Python Library
 
-The application uses `psycopg2` to establish a connection between Python and the PostgreSQL database.
+The application uses "psycopg2" to establish a connection between Python and the PostgreSQL database.
 
 Install the required library on your local machine by running:
 
@@ -140,7 +140,7 @@ Install the required library on your local machine by running:
 python -m pip install psycopg2-binary
 ```
 
-Using `python -m pip` ensures that the library is installed for the Python interpreter used to run the application.
+Using "python -m pip" ensures that the library is installed for the Python interpreter used to run the application.
 
 To verify that the installation was successful, run:
 
