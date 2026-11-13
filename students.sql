@@ -1,4 +1,5 @@
--- Run this script against your PostgreSQL database (for example, students_db).
+-- Script used to create the students table and insert initial records in pgAdmin.
+-- Not needed to run the application, here for reference only.
 
 CREATE TABLE IF NOT EXISTS students (
     student_id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -8,8 +9,6 @@ CREATE TABLE IF NOT EXISTS students (
     enrollment_date DATE
 );
 
--- Insert the assignment's initial records.
--- ON CONFLICT makes this script safe to run more than once.
 INSERT INTO students (first_name, last_name, email, enrollment_date)
 VALUES
     ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
