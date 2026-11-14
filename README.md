@@ -10,7 +10,7 @@ OpenStack server. The application communicates with the database over a network 
 
 ## Video Demonstration Link
 
-Here is the link to the video demonstration of this application: 
+Here is the link to the video demonstration of this application: https://www.youtube.com/watch?v=PxJrVRpZ14w
 
 ## Technologies Used
 
